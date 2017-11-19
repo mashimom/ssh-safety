@@ -1,0 +1,6 @@
+---
+# handlers file for ssh-safety
+- name: restart ssh service
+  service:
+    name: ssh
+    status: restarted
